@@ -178,3 +178,9 @@ date --date "@1598844075" "+%Y/%m/%d-%H:%M:%S"
 #nc=xxxx&outの箇所を検出
 nc=.*&out
 ```
+
+## grep
+```
+#「word1」にひっかかるファイルからさらに「colmun1」、「colmun2」を検索
+grep -rl word1 ./force-app/* | xargs -I {} sh -c 'echo; echo {}; grep -n -e .colmun1 -e .colmun2 {}'
+```
