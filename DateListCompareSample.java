@@ -7,11 +7,11 @@ public class DateListCompareSample{
     public static void main(String[] args){
 
         List<Date> list = new ArrayList<Date>();
-        list.add(Date.valueOf("2021-03-01"));
-        list.add(Date.valueOf("2021-04-01"));
-        list.add(Date.valueOf("2021-03-02"));
-        list.add(Date.valueOf("2021-03-03"));
-        list.add(Date.valueOf("2021-03-04"));
+        //list.add(Date.valueOf("2021-03-01"));
+        //list.add(Date.valueOf("2021-04-01"));
+        //list.add(Date.valueOf("2021-03-02"));
+        //list.add(Date.valueOf("2021-03-03"));
+        //list.add(Date.valueOf("2021-03-04"));
         list.add(Date.valueOf("2021-03-05"));
         list.add(Date.valueOf("2021-03-07"));
         list.add(Date.valueOf("2021-03-06"));
