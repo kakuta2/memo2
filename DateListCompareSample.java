@@ -23,9 +23,8 @@ public class DateListCompareSample{
         list.add(Date.valueOf("2021-04-01"));
         list.add(Date.valueOf("2021-04-02"));
         list.add(Date.valueOf("2021-04-03"));
-        //デバッグ用
-        //System.out.println(Collections.min(list));
-        //System.out.println(Collections.max(list));
-
+        System.out.println(Collections.min(list));
+        System.out.println(Collections.max(list));
+        
     }
 }
