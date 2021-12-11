@@ -21,8 +21,5 @@ public class DateListCompareSample{
         System.out.println(Collections.min(list));
         System.out.println(Collections.max(list));
         
-        
-
-
     }
 }
