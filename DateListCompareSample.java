@@ -22,7 +22,7 @@ public class DateListCompareSample{
         list.add(Date.valueOf("2021-03-08"));
         list.add(Date.valueOf("2021-04-01"));
         list.add(Date.valueOf("2021-04-02"));
-
+        list.add(Date.valueOf("2021-04-03"));
         System.out.println(Collections.min(list));
         System.out.println(Collections.max(list));
         
